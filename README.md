@@ -11,8 +11,8 @@ More information can be found here:
 https://docs.stellarcyber.ai/6.4.x/Configure/LogParser/Ingesting-multi-tenant.htm
 
 ## Sample configs
-There are two sample config files provided
+There are several sample config files provided
 - fg-multitenant.conf:  fortigate example which maps VDOM to stellar tenant id using the vdom_mapping.csv
-  
+- fg-devid-multitenant.conf:  fortigate example which maps a devices SERIAL NUMBER to stellar tenant id using the fg_mapping.csv
 - pan-multitenant.conf:  palo-alto firewall example which maps SERIAL NUMBER to stellar tenant id using the sn_mapping.csv
 
